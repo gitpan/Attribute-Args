@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Attribute-Args
-version:             0.01
+version:             0.02
 abstract:            check subroutine param types
 license:             ~
 author:              
@@ -9,6 +9,8 @@ generated_by:        ExtUtils::MakeMaker version 6.42
 distribution_type:   module
 requires:     
     Attribute::Handlers:           0
+    Test::Strict:                  0
+    YAML:                          0
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.3.html
     version: 1.3
