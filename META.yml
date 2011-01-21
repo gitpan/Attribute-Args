@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Attribute-Args
-version:             0.02
+version:             0.03
 abstract:            check subroutine param types
 license:             ~
 author:              
