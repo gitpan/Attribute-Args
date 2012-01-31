@@ -1,24 +1,24 @@
----
-abstract: 'check subroutine param types'
+--- #YAML:1.0
+name:               Attribute-Args
+version:            0.05
+abstract:           check subroutine param types
 author:
-  - 'Alex Alexandrov <swined@cpan.org>'
-build_requires:
-  ExtUtils::MakeMaker: 0
+    - Alex Alexandrov <swined@cpan.org>
+license:            unknown
+distribution_type:  module
 configure_requires:
-  ExtUtils::MakeMaker: 0
-dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.112150'
-license: unknown
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
-name: Attribute-Args
-no_index:
-  directory:
-    - t
-    - inc
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
 requires:
-  Attribute::Handlers: 0
-  Test::Strict: 0
-  YAML: 0
-version: 0.04
+    Attribute::Handlers:  0
+    Test::Strict:         0
+    YAML:                 0
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.56
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
